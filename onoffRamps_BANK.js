@@ -1,0 +1,51 @@
+let wallet_order_details= {
+    "amount": "10",
+    "sourceCurrency": "USD",
+    "destCurrency": "ETH",
+    "dest": "ethereum:0xBB9bc244D798123fDe783fCc1C72d3Bb8C189413",
+    "firstName": "Crash",
+    "lastName": "Bandicoot",
+    "phone": "9999",
+    "email": "99@99.com",
+    "country": "US",
+    "postalCode": "90140",
+    "state": "CA",
+    "city": "Los Angeles",
+    "street1": "1234 Test Ave",
+    "paymentMethod": "debit-card",
+    "referrerAccountId": "AC_XXXXXXXXXX", // mandatory
+    "owner": "user:US_EABWNLUDNNG",
+    "hideTrackBtn": false,
+    "sourceAmount": "100",
+    "destAmount": "100"
+}
+
+
+let payment_method = {
+    "country": "US",
+    "paymentMethodType": "INTERNATIONAL_TRANSFER",
+    "currency": "USD",
+    "beneficiaryType": "INDIVIDUAL",
+    "chargeablePM": true,
+    "firstNameOnAccount": "Billy-Bob",
+    "lastNameOnAccount": "Jones",
+    "accountNumber": "0",
+    "routingNumber": "0",
+    "accountType": "SAVINGS",
+    "paymentType": "LOCAL_BANK_TRANSFER",
+    "beneficiaryAddress": "112 Brannan St",
+    "beneficiaryCity": "San Francisco",
+    "beneficiaryState": "CA",
+    "beneficiaryPostal": "94108",
+    "beneficiaryPhoneNumber": "+14102239203",
+    "beneficiaryDobDay": 15,
+    "beneficiaryDobMonth": 12,
+    "beneficiaryDobYear": 1989,
+    "senderName": "myName",
+    "senderAddress": "myAddress",
+    "senderCity": "myCity",
+    "senderCountry": "myCountry",
+    "senderPhoneNumber": "myPhonenumber",
+    "sendingReason": "mySendingReason",
+    "beneficiaryAddress2": "eneficiaryAddress"
+}
